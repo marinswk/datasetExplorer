@@ -1,6 +1,6 @@
 from Adjust.models import Dataset
 from django.http import JsonResponse
-from django.db.models import Sum, Q
+from django.db.models import Sum, Q, F, ExpressionWrapper, FloatField
 
 
 def dataset_show(request):
@@ -50,7 +50,8 @@ def dataset_show(request):
             if aggregator == 'revenue':
                 dataset = dataset.annotate(revenue=Sum('revenue'))
             if aggregator == 'cpi':
-                dataset = dataset.annotate(cpi=Sum("spend")/Sum("installs"))
+                dataset = dataset.annotate(cpi=ExpressionWrapper(
+                Sum('spend')/Sum('installs'), output_field=FloatField()))
 
     if order_by:
         dataset = dataset.order_by(order_by)
