@@ -49,6 +49,8 @@ def dataset_show(request):
                 dataset = dataset.annotate(spend=Sum('spend'))
             if aggregator == 'revenue':
                 dataset = dataset.annotate(revenue=Sum('revenue'))
+            if aggregator == 'cpi':
+                dataset = dataset.annotate(cpi=Sum("spend")/Sum("installs"))
 
     if order_by:
         dataset = dataset.order_by(order_by)
