@@ -1,8 +1,12 @@
 # adjustTask
 **Installation**
 
-To run the application you need to create a python virtual environment, after activating it, 
-simply install all the packages in the requirements.txt file. for example via pip install -r requirements.txt
+To run the application you need to create a python virtual environment, here ia a link to a guide for reference:
+
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
+After activating it, simply install all the packages in the requirements.txt file. for example via 
+`pip install -r requirements.txt`
 
 then the django app can be started:
 `python manage.py runserver`

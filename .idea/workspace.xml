@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbdb90bb-ac94-4c98-9f94-acbfd4982c38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adjust/modules/dataset/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adjust/modules/dataset/operations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adjust/modules/support/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adjust/modules/support/response/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Adjust/modules/support/response/helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2f92ff87-ced3-4a24-b6b5-80403217db53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2f92ff87-ced3-4a24-b6b5-80403217db53.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adjust/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Adjust/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adjustTask/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/adjustTask/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
